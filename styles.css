@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
+
+body {font-family: 'Overpass', sans-serif;
+    width: 1000px;
+    height: 600px;
+    background-color: black;
+}
+
+.box {
+    width: 60vh;
+    height: 60vh;
+    position: relative;
+    left: 30rem;
+    top: 5rem;
+    border-radius: 18px;
+
+    background-color: hsl(213, 19%, 18%);
+}
+
+
+.circle {
+    background: hsl(217, 22%, 25%);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    padding: 2px;
+    margin: 5px 10px 22px 5px;
+}
+
+.rating {
+    display: flex;
+    text-align: center;
+    vertical-align: middle;
+    align-items: center;
+    position: relative;
+}
+
+a{text-decoration: none;
+    color: white;
+    font-family:'Overpass', sans-serif ;
+position: relative;
+top: 6px;}
+.button {text-decoration: none;
+    width: 300px;
+    height: 35px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: hsl(25, 97%, 53%);
+    
+    
+    letter-spacing: 2px;
+}
+
+h1 {font-size: 20px;
+    color: white;
+    font-family: 'Overpass', sans-serif;
+}
+
+p {
+    color: hsl(217, 12%, 63%);
+}
+
+.icon {
+    position: relative;
+    top: 10px;
+    left: 12px;
+}
+
+.content {
+    padding: 8%;
+}
+.mov{position: relative;
+bottom: 6px;}
+.message{text-align: center;
+ }
+
+.response{position: relative;
+    left: 90px;
+    padding: 0;
+    width: 180px;
+    text-align: center;
+    color:    hsl(25, 97%, 53%); 
+height: 30px;
+background-color:hsl(217, 22%, 25%) ;
+border-radius: 20px;}
+.image01{position: relative;
+justify-content: center;
+left: 70px;
+padding: 10%;}
